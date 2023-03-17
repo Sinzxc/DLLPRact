@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonLib", "PolygonLib\PolygonLib.csproj", "{EB5F8118-BE9F-438C-9A3A-83DC2289B345}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB5F8118-BE9F-438C-9A3A-83DC2289B345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5F8118-BE9F-438C-9A3A-83DC2289B345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5F8118-BE9F-438C-9A3A-83DC2289B345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5F8118-BE9F-438C-9A3A-83DC2289B345}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE2621EE-3635-4BDC-8752-0415FD314965}
+	EndGlobalSection
+EndGlobal
