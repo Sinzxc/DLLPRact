@@ -116,8 +116,8 @@ namespace PolygonLib
         Double ABC, BCD, CDA, DAB;
         double AB, BC, CD, DA,AC,BD;
         double S,P;
-        Convex() : base() { SearchAngles(); SearchSides();SearchSquad(); }
-        Convex(Point p1, Point p2, Point p3, Point p4) : base(p1,p2,p3,p4) { SearchAngles(); SearchSides(); SearchSquad(); }
+        public Convex() : base() { SearchAngles(); SearchSides();SearchSquad(); }
+        public Convex(Point p1, Point p2, Point p3, Point p4) : base(p1,p2,p3,p4) { SearchAngles(); SearchSides(); SearchSquad(); }
         public override string ToString()
         {
             return "Выпуклый четырёхуг:\n"+ base.ToString();
@@ -149,8 +149,8 @@ namespace PolygonLib
         Double ABC, BCD, CDA, DAB;
         double AB, BC, CD, DA, AC, BD;
         double S, P;
-        Rhombus() : base() { SearchAngles(); SearchSides(); SearchSquad(); }
-        Rhombus(Point p1, Point p2, Point p3, Point p4) : base(p1, p2, p3, p4) { SearchAngles(); SearchSides(); SearchSquad(); }
+        public Rhombus() : base() { SearchAngles(); SearchSides(); SearchSquad(); }
+        public Rhombus(Point p1, Point p2, Point p3, Point p4) : base(p1, p2, p3, p4) { SearchAngles(); SearchSides(); SearchSquad(); }
 
         public override void SearchSquad()
         {
@@ -168,8 +168,8 @@ namespace PolygonLib
         Double ABC, BCD, CDA, DAB;
         double AB, BC, CD, DA, AC, BD;
         double S, P;
-        Squar() : base() { SearchAngles(); SearchSides(); SearchSquad(); }
-        Squar(Point p1, Point p2, Point p3, Point p4) : base(p1, p2, p3, p4) { SearchAngles(); SearchSides(); SearchSquad(); }
+        public Squar() : base() { SearchAngles(); SearchSides(); SearchSquad(); }
+        public Squar(Point p1, Point p2, Point p3, Point p4) : base(p1, p2, p3, p4) { SearchAngles(); SearchSides(); SearchSquad(); }
 
         public override void SearchSquad()
         {
@@ -180,4 +180,6 @@ namespace PolygonLib
             return "Квадрат:\n" + base.ToString();
         }
     }
+
 }
+
